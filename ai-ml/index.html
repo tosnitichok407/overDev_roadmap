@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แผนที่วิศวกร AI / ML — OverDev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>:root { --page-color: #7c3aed; }</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="../index.html" class="back-btn">← กลับ</a>
+    <a href="../index.html" class="brand">OD</a>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="roadmap-hero">
+        <span class="tag tag--data">ดาต้า &amp; AI</span>
+        <h1>วิศวกร AI / ML</h1>
+        <p>ออกแบบและสร้างระบบ machine learning — ตั้งแต่ฝึกโมเดลจนถึง deploy ในระดับ scale วิศวกร ML อยู่ที่จุดตัดระหว่าง software engineering และ data science</p>
+      </section>
+
+      <section class="steps">
+
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h2>พื้นฐานคณิตศาสตร์</h2>
+            <p>เสริมความแข็งแกร่งด้าน linear algebra (vectors, matrices, eigenvalue) และแคลคูลัส (derivatives, gradients) ซีรีส์ "Essence of Linear Algebra" ของ 3Blue1Brown บน YouTube ทำให้คณิตศาสตร์นามธรรมรู้สึกเป็นธรรมชาติ</p>
+            <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" class="step-link" target="_blank" rel="noopener">3Blue1Brown — Linear Algebra →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h2>Machine Learning — Andrew Ng</h2>
+            <p>คอร์ส ML ที่ได้รับการยกย่องมากที่สุดบนอินเทอร์เน็ต ครอบคลุม supervised learning, neural network, SVM และ best practices กว่า 5 ล้านคนเคยเรียน — มีเหตุผลที่น่าเชื่อถือ</p>
+            <a href="https://www.coursera.org/learn/machine-learning" class="step-link" target="_blank" rel="noopener">Coursera — Machine Learning →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h2>Deep Learning — fast.ai</h2>
+            <p>แนวทาง top-down, code-first สำหรับ deep learning คุณสร้างโมเดลที่ใช้งานได้ตั้งแต่บทเรียนแรก แล้วค่อยเข้าใจทฤษฎีทีหลัง — ตรงข้ามกับคอร์สส่วนใหญ่ ใช้งานได้จริงและฟรีทั้งหมด</p>
+            <a href="https://www.fast.ai" class="step-link" target="_blank" rel="noopener">fast.ai →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h2>PyTorch</h2>
+            <p>framework deep learning ที่ครองตลาดทั้งในด้านการวิจัยและ production เรียน tensor, autograd, neural network module และ training loop tutorial อย่างเป็นทางการมีโครงสร้างที่ดีและใช้งานได้จริง</p>
+            <a href="https://pytorch.org/tutorials/beginner/basics/intro.html" class="step-link" target="_blank" rel="noopener">PyTorch — เรียนพื้นฐาน →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-body">
+            <h2>HuggingFace Transformers</h2>
+            <p>เข้าถึงโมเดล NLP, vision และ multimodal ระดับ state-of-the-art ด้วยโค้ดไม่กี่บรรทัด HuggingFace กลายเป็น GitHub สำหรับโมเดล AI — เข้าใจมันคือสิ่งที่ขาดไม่ได้ในยุคนี้</p>
+            <a href="https://huggingface.co/docs/transformers/quicktour" class="step-link" target="_blank" rel="noopener">HuggingFace — Quick Tour →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">6</div>
+          <div class="step-body">
+            <h2>Deploy โมเดล</h2>
+            <p>Serve โมเดลของคุณเป็น web app หรือ API โดยใช้ HuggingFace Spaces (ฟรี) หรือ Modal การ deploy สิ่งที่ใช้งานได้จริง — แม้แค่ demo เล็กๆ — คือวิธีที่เร็วที่สุดในการเข้าใจฝั่ง production ของ ML</p>
+            <a href="https://huggingface.co/spaces" class="step-link" target="_blank" rel="noopener">HuggingFace Spaces →</a>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="tip-box">
+        <span class="tip-icon">💡</span>
+        <p><strong>เคล็ดลับ:</strong> หลังจากทำ fast.ai แล้ว ลองสร้าง implementation ของ paper จากศูนย์ ฟังดูน่ากลัว แต่มันคือวิธีที่เร็วที่สุดในการเข้าใจอย่างแท้จริงว่าระบบ ML สมัยใหม่สร้างขึ้นมาอย่างไร</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>OverDev Roadmaps — สร้างโดยนักพัฒนา เพื่อนักพัฒนา</p>
+    </div>
+  </footer>
+
+</body>
+</html>
