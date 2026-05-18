@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แผนที่นักวิทยาศาสตร์ข้อมูล — OverDev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>:root { --page-color: #7c3aed; }</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="../index.html" class="back-btn">← กลับ</a>
+    <a href="../index.html" class="brand">OD</a>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="roadmap-hero">
+        <span class="tag tag--data">ดาต้า &amp; AI</span>
+        <h1>นักวิทยาศาสตร์ข้อมูล</h1>
+        <p>สร้างโมเดลที่เรียนรู้จากข้อมูล นักวิทยาศาสตร์ข้อมูลผสมผสานสถิติ การเขียนโปรแกรม และความรู้ domain เพื่อดึง prediction และ insight ที่ขับเคลื่อนการตัดสินใจของผลิตภัณฑ์</p>
+      </section>
+
+      <section class="steps">
+
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h2>Python และพื้นฐานคณิตศาสตร์</h2>
+            <p>เรียน Python syntax จากนั้นทำความคุ้นเคยกับ linear algebra (vectors, matrices) และความน่าจะเป็น ไม่ต้องมีปริญญาคณิตศาสตร์ — แต่ต้องเข้าใจว่าทำไม algorithm ถึงทำงาน ไม่ใช่แค่เรียกใช้มัน</p>
+            <a href="https://www.python.org/about/gettingstarted/" class="step-link" target="_blank" rel="noopener">Python — เริ่มต้น →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h2>NumPy และ Pandas</h2>
+            <p>NumPy จัดการ numerical array และการดำเนินการ matrix Pandas จัดการข้อมูลแบบตาราง — โหลด CSV, filter row, group, merge และ reshape Library สองตัวนี้รองรับเกือบทุกอย่างใน data science</p>
+            <a href="https://numpy.org/doc/stable/user/quickstart.html" class="step-link" target="_blank" rel="noopener">NumPy Quickstart →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h2>Scikit-learn — Machine Learning</h2>
+            <p>ฝึก model แรก: linear regression, decision tree, random forest และ k-means clustering เรียน train/test split, cross-validation และวิธีประเมิน performance ของ model อย่างถูกต้อง</p>
+            <a href="https://scikit-learn.org/stable/getting_started.html" class="step-link" target="_blank" rel="noopener">Scikit-learn — เริ่มต้น →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h2>Data Visualization</h2>
+            <p>สื่อสาร findings ได้ชัดเจนด้วย Matplotlib และ Seaborn โมเดลที่ไม่มีใครเข้าใจคือโมเดลที่ไม่มีใครใช้ Visualization สำคัญพอๆ กับความแม่นยำของโมเดลในโลกจริง</p>
+            <a href="https://matplotlib.org/stable/tutorials/pyplot.html" class="step-link" target="_blank" rel="noopener">Matplotlib — บทเรียน pyplot →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-body">
+            <h2>สถิติเชิงลึก</h2>
+            <p>ลึกขึ้น: การคิดแบบ Bayesian, A/B testing, p-value และ statistical power StatQuest กับ Josh Starmer อธิบายแนวคิดเหล่านี้ได้ชัดเจนกว่าคอร์สมหาวิทยาลัยส่วนใหญ่ — และฟรีบน YouTube</p>
+            <a href="https://www.youtube.com/@statquest" class="step-link" target="_blank" rel="noopener">StatQuest — YouTube →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">6</div>
+          <div class="step-body">
+            <h2>การแข่งขัน Kaggle</h2>
+            <p>ฝึกกับชุดข้อมูลจริงในการแข่งขันจริง เริ่มด้วย Titanic (binary classification) หรือ House Prices (regression) อ่าน notebook ยอดนิยมเพื่อดูว่านักปฏิบัติที่มีประสบการณ์คิดอย่างไร</p>
+            <a href="https://www.kaggle.com/competitions" class="step-link" target="_blank" rel="noopener">Kaggle Competitions →</a>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="tip-box">
+        <span class="tip-icon">💡</span>
+        <p><strong>เคล็ดลับ:</strong> เริ่มด้วยการแข่งขัน Titanic หรือ House Prices บน Kaggle นี่คือโจทย์มือใหม่แบบ classic ที่มี notebook ชุมชนให้เรียนรู้นับพัน — และการทำจนเสร็จให้คุณโปรเจกต์ที่สมบูรณ์และแชร์ได้ทันที</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>OverDev Roadmaps — สร้างโดยนักพัฒนา เพื่อนักพัฒนา</p>
+    </div>
+  </footer>
+
+</body>
+</html>

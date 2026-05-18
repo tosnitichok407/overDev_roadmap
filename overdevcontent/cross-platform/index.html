@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แผนที่นักพัฒนาข้ามแพลตฟอร์ม — OverDev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>:root { --page-color: #e8590c; }</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="../index.html" class="back-btn">← กลับ</a>
+    <a href="../index.html" class="brand">OD</a>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="roadmap-hero">
+        <span class="tag tag--app">พัฒนาแอป</span>
+        <h1>ข้ามแพลตฟอร์ม</h1>
+        <p>เขียนครั้งเดียว ส่งไปยัง iOS และ Android จาก codebase เดียว Flutter และ React Native คือสอง framework หลัก — แต่ละอันมี tradeoff ที่ควรเข้าใจก่อนจะเลือก</p>
+      </section>
+
+      <section class="steps">
+
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h2>เลือก Framework</h2>
+            <p>
+              <strong>Flutter</strong> (โดย Google): ใช้ Dart, render UI component ของตัวเอง, performance ดีเยี่ยม, เอกสารครบถ้วน — แนะนำสำหรับมือใหม่ที่เริ่มจากศูนย์<br><br>
+              <strong>React Native</strong> (โดย Meta): ใช้ JavaScript/TypeScript, bridge ไปยัง native component — เหมาะถ้าคุณรู้จัก React อยู่แล้วและอยากนำความรู้นั้นมาใช้บนมือถือ
+            </p>
+            <a href="https://flutter.dev" class="step-link" target="_blank" rel="noopener">flutter.dev →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h2>ภาษา Dart</h2>
+            <p>Flutter ใช้ Dart — ภาษาที่เรียนรู้ง่ายถ้าคุณรู้ภาษา C-style (Java, C#, JavaScript) เน้น null safety, async/await, stream และ class คุณจะ productive ด้วย Dart ได้ภายในหนึ่งสัปดาห์</p>
+            <a href="https://dart.dev/guides" class="step-link" target="_blank" rel="noopener">dart.dev — Language Tour →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h2>Flutter Codelabs</h2>
+            <p>บทเรียนแบบ interactive อย่างเป็นทางการที่พาคุณผ่านการสร้างแอป Flutter จริงทีละขั้น เริ่มด้วย "Your first Flutter app" — ครอบคลุม widget, state, theming และ navigation ในโปรเจกต์เดียว</p>
+            <a href="https://codelabs.developers.google.com/?cat=Flutter" class="step-link" target="_blank" rel="noopener">Flutter Codelabs →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h2>DartPad — Playground ออนไลน์</h2>
+            <p>รัน Dart และ Flutter บนเบราว์เซอร์ได้เลย — ไม่ต้องตั้งค่าอะไร ใช้ DartPad ทดลอง widget, ทดสอบไอเดียเล็กๆ อย่างรวดเร็ว และทำตาม tutorial ก่อนที่ environment บนเครื่องจะพร้อม</p>
+            <a href="https://dartpad.dev" class="step-link" target="_blank" rel="noopener">dartpad.dev →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-body">
+            <h2>Riverpod — การจัดการ State</h2>
+            <p>จัดการ state ของแอปอย่างสะอาดด้วย Riverpod ซึ่งเป็น solution การจัดการ state ที่แนะนำสำหรับ Flutter type-safe, ทดสอบได้ และหลีกเลี่ยงปัญหาของแนวทางเก่าอย่าง setState และ Provider</p>
+            <a href="https://riverpod.dev" class="step-link" target="_blank" rel="noopener">riverpod.dev →</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">6</div>
+          <div class="step-body">
+            <h2>Deploy ไปยัง Store ทั้งสอง</h2>
+            <p>Build release APK สำหรับ Android และ archive สำหรับ iOS จากนั้น submit ไปยัง Google Play และ App Store เอกสาร deployment อย่างเป็นทางการของ Flutter อธิบายทุกขั้นตอน ทั้ง signing, building และ submitting</p>
+            <a href="https://docs.flutter.dev/deployment/android" class="step-link" target="_blank" rel="noopener">คู่มือ Deploy Flutter →</a>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="tip-box">
+        <span class="tip-icon">💡</span>
+        <p><strong>เลือกอันไหนดี?</strong> เลือก <strong>Flutter</strong> ถ้าเริ่มจากศูนย์ — เอกสารดีเยี่ยม ชุมชนแอคทีฟ และ performance สม่ำเสมอ เลือก <strong>React Native</strong> ถ้าคุณรู้จัก React และ JavaScript ดีแล้ว — การเรียนรู้จะชันน้อยกว่าและสามารถนำความรู้ที่มีอยู่มาใช้ได้มาก</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>OverDev Roadmaps — สร้างโดยนักพัฒนา เพื่อนักพัฒนา</p>
+    </div>
+  </footer>
+
+</body>
+</html>
